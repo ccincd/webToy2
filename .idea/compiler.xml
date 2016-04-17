@@ -25,8 +25,8 @@
         <module name="webToy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="webToy" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="webToy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
