@@ -1,11 +1,13 @@
 package me.toy.model;
 
+import me.toy.common.PrintableBean;
+
 /**
  * 客户实体
  *
  * Created by cc on 16/4/18.
  */
-public class CustomerEntity {
+public class CustomerEntity extends PrintableBean {
 
     private Integer id;
 

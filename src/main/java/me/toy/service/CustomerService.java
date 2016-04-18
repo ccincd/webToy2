@@ -1,7 +1,9 @@
 package me.toy.service;
 
+import me.toy.helper.DatabaseHelper;
 import me.toy.model.CustomerEntity;
 
+import java.sql.Connection;
 import java.util.List;
 import java.util.Map;
 
@@ -30,6 +32,13 @@ public class CustomerService {
     public List<CustomerEntity> getCustomerList(String keyWord) {
         //
         return null;
+    }
+
+    public List<CustomerEntity> getCustomerList() {
+        Connection conn = DatabaseHelper.getConnection();
+
+        String sql = "select * from customer";
+        return DatabaseHelper.queryEntityList(CustomerEntity.class, sql);
     }
 
     public CustomerEntity getCustomerDetail(Integer customerId) {
