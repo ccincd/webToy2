@@ -20,7 +20,7 @@ public class HelloServlet extends HttpServlet {
     @Override protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         DateTime dateTime = new DateTime();
-        String currentTime = dateTime.toString("yyyy-MM-dd");
+        String currentTime = dateTime.toString("yyyy-MM-dd HH:mm:ss");
         req.setAttribute("currentTime", currentTime);
         req.getRequestDispatcher("/WEB-INF/view/hello.jsp").forward(req, resp);
     }

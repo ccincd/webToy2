@@ -3,9 +3,9 @@
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
-    <option name="id" value="1453644670816" />
+    <option name="id" value="1445315072282" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/Qunar.xml" />
+    <option name="pathToConfigFileJava" value="$APPLICATION_HOME_DIR$/Qunar.xml" />
     <option name="selectedJavaProfile" value="Qunar" />
   </component>
   <component name="EntryPointsManager">
@@ -14,6 +14,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
+  <component name="IdProvider" IDEtalkID="48CB2BDB18FC38752C5A1B9087CF865D" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -31,7 +32,10 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
   </component>
 </project>
